@@ -1,0 +1,1 @@
+Place your images here (e.g., logo-white.png, hero-image.png).
