@@ -15,24 +15,24 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 1000px;
   padding: 60px 20px;
 }
 
 .logo {
-  max-width: 180px;
+  max-width: 160px;
   margin-bottom: 30px;
 }
 
 .hero h1 {
-  font-size: 2.8rem;
+  font-size: 2.6rem;
   font-weight: 600;
   margin-bottom: 20px;
   color: #ffffff;
 }
 
 .hero p {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   margin-bottom: 30px;
   color: #cccccc;
 }
@@ -54,8 +54,35 @@ body {
   transform: translateY(-2px);
 }
 
-footer {
+.cta-button.large {
+  font-size: 1.25rem;
+  padding: 16px 36px;
+  margin-top: 40px;
+}
+
+.gallery {
   margin-top: 60px;
+}
+
+.gallery h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+footer {
+  margin-top: 80px;
   font-size: 0.9rem;
   color: #888888;
 }
