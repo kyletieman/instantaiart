@@ -1,1 +1,0 @@
-Place your actual image and gif files here, using names like frame-1.png, sample-1.gif, etc.
